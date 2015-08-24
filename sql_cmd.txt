@@ -1,0 +1,7 @@
+## If you're new to SQL, try the following SQL command and see the result.
+CREATE TABLE Store_Information(Store_Name TEXT, Sales INTEGER, Txn_Date DATE);
+INSERT INTO Store_Information(Store_Name, Sales, Txn_Date) VALUES ('Los Angeles', 1500, '05-Jan-1999');
+INSERT INTO Store_Information(Store_Name, Sales, Txn_Date) VALUES ('San Diego',   250,  '07-Jan-1999');
+INSERT INTO Store_Information(Store_Name, Sales, Txn_Date) VALUES ('Los Angeles', 300,  '08-Jan-1999');
+INSERT INTO Store_Information(Store_Name, Sales, Txn_Date) VALUES ('Boston',      700,  '08-Jan-1999');
+SELECT Store_Name FROM Store_Information;
