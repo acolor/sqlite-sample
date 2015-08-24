@@ -72,7 +72,7 @@ void run_sql_method1(void)
         goto exit_close_database;
     }
     
-    printf("Enter SQL expression, 'quit' to exit.\n");
+    printf("Enter SQL statement, 'quit' to exit.\n");
     for ( ; ; ) {
         printf("SQL > ");
         gets(sql_string);
