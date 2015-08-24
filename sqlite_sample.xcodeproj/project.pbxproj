@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89D127C21B8AF182002B8F2E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 89D127C11B8AF182002B8F2E /* main.c */; };
+		89D127C91B8AF3A6002B8F2E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D127C81B8AF3A6002B8F2E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		89D127BE1B8AF182002B8F2E /* sqlite_sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sqlite_sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D127C11B8AF182002B8F2E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		89D127C81B8AF3A6002B8F2E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D127C91B8AF3A6002B8F2E /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		89D127B51B8AF182002B8F2E = {
 			isa = PBXGroup;
 			children = (
+				89D127C81B8AF3A6002B8F2E /* libsqlite3.dylib */,
 				89D127C01B8AF182002B8F2E /* sqlite_sample */,
 				89D127BF1B8AF182002B8F2E /* Products */,
 			);
